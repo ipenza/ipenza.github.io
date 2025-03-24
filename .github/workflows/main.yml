@@ -1,3 +1,7 @@
-- uses: taiki-e/install-action@v2
-  with:
-    tool: cargo-hack
+jobs:
+  foo:
+    steps:
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.20.0
+      # ...
